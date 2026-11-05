@@ -16,8 +16,8 @@ python3 -m http.server 8123 --directory site
 - **Results:** edit `site/results.html` as outputs become available.
 - **Logos:** replace the file in `site/assets/logos/`, then update the file name in the pages that use it
   (`index.html` and `consortium.html`). TalTech's file is white, so its tile has the `reversed` class.
-- **Colours:** the site follows the visitor's system light or dark setting. To force one look, add `data-theme="dark"` or `data-theme="light"` to `<html>` in each page.
-- **Project logo:** due 5 December 2026. Replace the "AI-AMCe" text link in the `.brand` element of each page.
+- **Colours:** the site follows the visitor's system light or dark setting. The `--band` colours match the banner backgrounds, so change them together.
+- **Project logo:** the main page banner is `logo-banner.webp` (light mode) and `logo-banner-dark.webp` (dark mode) in `site/assets/img/`. The header uses `logo-header.webp` and `logo-header-dark.webp`, the AI-AMCe wordmark on a transparent background.
 
 ## To complete before going live
 
