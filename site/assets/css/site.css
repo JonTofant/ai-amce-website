@@ -148,8 +148,8 @@ a:hover { text-decoration-thickness: 2px; }
 }
 
 /* EU acknowledgement */
-.eu-mark { display: inline-flex; align-items: center; gap: 0.6rem; font: 600 0.9rem/1.25 var(--font-body); }
-.eu-mark img { height: 2.1rem; width: auto; display: block; }
+/* The official file, scaled only: the EU rules do not allow changes to the emblem or its text. */
+.eu-mark img { display: block; width: auto; height: 3rem; }
 
 /* Sections */
 .section { padding-block: clamp(2.5rem, 5vw, 4rem); }
