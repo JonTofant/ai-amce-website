@@ -19,7 +19,7 @@ python3 -m http.server 8123 --directory site
 - **Colours:** the site follows the visitor's system light or dark setting. The `--band` colours match the banner backgrounds, so change them together.
 - **EU emblem:** `site/assets/img/eu-cofunded.png` and `eu-cofunded-dark.png` are the official English "Co-funded by the European Union" files from the Commission's download centre, only scaled down. Do not edit them.
 - **Visitor statistics:** GoatCounter (cookieless, no consent banner needed) counts visits for the WP5 KPI of
-  at least 1,000 unique visitors. Dashboard: https://jontofant.goatcounter.com. The script tag is in the
+  at least 1,000 unique visitors. Dashboard: https://ai-amce.goatcounter.com. The script tag is in the
   `<head>` of every page; copy it into any new page.
 - **Hosting:** GitHub Pages publishes `site/` on every push to `main` that changes it
   (`.github/workflows/pages.yml`). Current address: https://jontofant.github.io/ai-amce-website/
