@@ -39,4 +39,6 @@ python3 -m http.server 8123 --directory site
    April 2029). The application has it as a separate event led by STU in Slovakia. Confirm which is right
    and update `site/assets/js/schedule.js`.
 6. **Disclaimer wording** in the footer, checked against the grant agreement.
-7. **Consent** of the people in the kick-off photo and of the Management Board members named on the site.
+7. **Record of consent.** The people in the kick-off photo and the Management Board members named on the site
+   have agreed verbally. Get a short written confirmation from each (an email reply is enough) and keep it with
+   the project records, not in this repository.
