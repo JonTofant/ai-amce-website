@@ -22,24 +22,20 @@ python3 -m http.server 8123 --directory site
   at least 1,000 unique visitors. Dashboard: https://ai-amce.goatcounter.com. The script tag is in the
   `<head>` of every page; copy it into any new page.
 - **Hosting:** GitHub Pages publishes `site/` on every push to `main` that changes it
-  (`.github/workflows/pages.yml`). Current address: https://jontofant.github.io/ai-amce-website/
+  (`.github/workflows/pages.yml`). Address: https://ai-amce.feri.um.si (CNAME to `jontofant.github.io`, set up by RC FERI; the custom domain is
+  set in the repository's Pages settings).
 - **Project logo:** the main page banner is `logo-banner.webp` (light mode) and `logo-banner-dark.webp` (dark mode) in `site/assets/img/`. The header uses `logo-header.webp` and `logo-header-dark.webp`, the AI-AMCe wordmark on a transparent background.
 
 ## To complete before going live
 
 1. **Project number** from the grant agreement, in the form `2026-1-SI01-KA220-HED-000…`, in the footer.
    `KA220-HED-0E425335` is only the application form ID.
-2. **Link previews.** Once the domain is known, add these two lines below the other `og:` tags in each page,
-   with the real domain and that page's file name:
-   `<meta property="og:url" content="https://DOMAIN/index.html">` and
-   `<meta property="og:image" content="https://DOMAIN/assets/img/og-image.jpg">`.
-   Social networks ignore an `og:image` without the full address.
-3. **Consortium approval of the logo.** The logo and visual identity are UNI's WP5 task (due 5 December 2026),
+2. **Consortium approval of the logo.** The logo and visual identity are UNI's WP5 task (due 5 December 2026),
    with the approval procedure agreed at the kick-off.
-4. **Combined promotional event.** The site shows it together with the SAUM special session (Serbia,
+3. **Combined promotional event.** The site shows it together with the SAUM special session (Serbia,
    April 2029). The application has it as a separate event led by STU in Slovakia. Confirm which is right
    and update `site/assets/js/schedule.js`.
-5. **Disclaimer wording** in the footer, checked against the grant agreement.
-6. **Record of consent.** The people in the kick-off photo and the Management Board members named on the site
+4. **Disclaimer wording** in the footer, checked against the grant agreement.
+5. **Record of consent.** The people in the kick-off photo and the Management Board members named on the site
    have agreed verbally. Get a short written confirmation from each (an email reply is enough) and keep it with
    the project records, not in this repository.
