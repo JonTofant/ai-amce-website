@@ -17,7 +17,7 @@ python3 -m http.server 8123 --directory site
 - **Logos:** replace the file in `site/assets/logos/`, then update the file name in the pages that use it
   (`index.html` and `consortium.html`). TalTech's file is white, so its tile has the `reversed` class.
 - **Colours:** the site follows the visitor's system light or dark setting. The `--band` colours match the banner backgrounds, so change them together.
-- **EU emblem:** `site/assets/img/eu-cofunded.png` and `eu-cofunded-dark.png` are the official English "Co-funded by the European Union" files from the Commission's download centre, only scaled down. Do not edit them.
+- **EU emblem:** `site/assets/img/eu-funded.png` (POS) and `eu-funded-dark.png` (NEG) are the official English "Funded by the European Union" files from the Commission's download centre, only scaled down. Do not edit them.
 - **Visitor statistics:** GoatCounter (cookieless, no consent banner needed) counts visits for the WP5 KPI of
   at least 1,000 unique visitors. Dashboard: https://ai-amce.goatcounter.com. The script tag is in the
   `<head>` of every page; copy it into any new page.
