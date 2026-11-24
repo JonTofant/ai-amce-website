@@ -24,6 +24,9 @@ python3 -m http.server 8123 --directory site
 - **Hosting:** GitHub Pages publishes `site/` on every push to `main` that changes it
   (`.github/workflows/pages.yml`). Address: https://ai-amce.feri.um.si (CNAME to `jontofant.github.io`, set up by RC FERI; the custom domain is
   set in the repository's Pages settings).
+- **Privacy page:** `site/privacy.html` describes GoatCounter, GitHub Pages hosting and the contacts. Update it
+  (and its "Last updated" date) if you add any tool that handles visitor data, and have it checked by the UM data
+  protection officer (dpo@um.si).
 - **Search engines:** the site is registered in Google Search Console (verified with
   `site/google1f58336fcafd866f.html`; do not delete it). When you add a page, add it to `site/sitemap.xml` and
   give it a `<link rel="canonical">` like the others.
