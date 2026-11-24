@@ -32,16 +32,4 @@ python3 -m http.server 8123 --directory site
   give it a `<link rel="canonical">` like the others.
 - **Project logo:** the main page banner is `logo-banner.webp` (light mode) and `logo-banner-dark.webp` (dark mode) in `site/assets/img/`. The header uses `logo-header.webp` and `logo-header-dark.webp`, the AI-AMCe wordmark on a transparent background.
 
-## To complete before going live
 
-1. **Project number** from the grant agreement, in the form `2026-1-SI01-KA220-HED-000…`, in the footer.
-   `KA220-HED-0E425335` is only the application form ID.
-2. **Consortium approval of the logo.** The logo and visual identity are UNI's WP5 task (due 5 December 2026),
-   with the approval procedure agreed at the kick-off.
-3. **Combined promotional event.** The site shows it together with the SAUM special session (Serbia,
-   April 2029). The application has it as a separate event led by STU in Slovakia. Confirm which is right
-   and update `site/assets/js/schedule.js`.
-4. **Disclaimer wording** in the footer, checked against the grant agreement.
-5. **Record of consent.** The people in the kick-off photo and the Management Board members named on the site
-   have agreed verbally. Get a short written confirmation from each (an email reply is enough) and keep it with
-   the project records, not in this repository.
