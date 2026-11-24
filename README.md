@@ -24,6 +24,9 @@ python3 -m http.server 8123 --directory site
 - **Hosting:** GitHub Pages publishes `site/` on every push to `main` that changes it
   (`.github/workflows/pages.yml`). Address: https://ai-amce.feri.um.si (CNAME to `jontofant.github.io`, set up by RC FERI; the custom domain is
   set in the repository's Pages settings).
+- **Search engines:** the site is registered in Google Search Console (verified with
+  `site/google1f58336fcafd866f.html`; do not delete it). When you add a page, add it to `site/sitemap.xml` and
+  give it a `<link rel="canonical">` like the others.
 - **Project logo:** the main page banner is `logo-banner.webp` (light mode) and `logo-banner-dark.webp` (dark mode) in `site/assets/img/`. The header uses `logo-header.webp` and `logo-header-dark.webp`, the AI-AMCe wordmark on a transparent background.
 
 ## To complete before going live
